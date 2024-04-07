@@ -31,7 +31,7 @@ body {
     background-image: linear-gradient(to top right, var(--blue), var(--red));
     font-family: "Permanent Marker", sans-serif;
     font-style: normal;
-    
+    object-fit: cover;
     background-repeat: no-repeat;
     background-position: 60%;
     background-size: cover;
