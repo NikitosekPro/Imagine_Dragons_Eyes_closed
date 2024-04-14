@@ -1,6 +1,6 @@
 :root {
     --blue: blue;
-    --red: red ;
+    --red: red;
 }
 
 
@@ -13,6 +13,8 @@
     width: 1170px;
     padding: 0 15px;
     margin: 0 auto;
+
+
 
 
 }
@@ -37,19 +39,17 @@ body {
     background-position: 60%;
     background-size: cover;
     background-attachment: fixed;
+    flex-basis: content;
 }
 
 .section {
-    
-    
-    
     background-color: white;
     border-radius: 20px;
     -webkit-box-shadow: 2px 15px 38px 1px rgba(0, 0, 0, 0.55);
-        -moz-box-shadow: 2px 15px 38px 1px rgba(0, 0, 0, 0.55);
-        box-shadow: 2px 15px 38px 1px rgba(0, 0, 0, 0.55);
+    -moz-box-shadow: 2px 15px 38px 1px rgba(0, 0, 0, 0.55);
+    box-shadow: 2px 15px 38px 1px rgba(0, 0, 0, 0.55);
     text-align: center;
-    margin-left:1px;
+    margin-left: 1px;
     margin-right: 1px;
     margin-bottom: 40px;
 }
@@ -63,15 +63,15 @@ body {
     align-items: center;
     padding: 20px;
     background-color: white;
-        border-radius: 20px;
-        -webkit-box-shadow: 2px 15px 38px 1px rgba(0, 0, 0, 0.55);
-        -moz-box-shadow: 2px 15px 38px 1px rgba(0, 0, 0, 0.55);
-        box-shadow: 2px 15px 38px 1px rgba(0, 0, 0, 0.55);
-        margin-left: 1px;
-        margin-right: 1px;
-        margin-bottom: 40px;
-        
-        
+    border-radius: 20px;
+    -webkit-box-shadow: 2px 15px 38px 1px rgba(0, 0, 0, 0.55);
+    -moz-box-shadow: 2px 15px 38px 1px rgba(0, 0, 0, 0.55);
+    box-shadow: 2px 15px 38px 1px rgba(0, 0, 0, 0.55);
+    margin-left: 1px;
+    margin-right: 1px;
+    margin-bottom: 40px;
+
+
 }
 
 
