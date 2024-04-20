@@ -10,23 +10,15 @@
 
 
 .container {
-    width: 1170px;
-    padding: 0 15px;
+    width: 1150px;
+    padding: 0 5px;
     margin: 0 auto;
-
+    display: flex;
+    flex-shrink: unset;
 
 
 
 }
-
-p {
-    font-size: 100px;
-}
-
-h1 {
-    font-size: 40px;
-}
-
 
 
 body {
@@ -39,8 +31,41 @@ body {
     background-position: 60%;
     background-size: cover;
     background-attachment: fixed;
-    flex-basis: content;
-    gap: 10px;
+    flex-direction: column;
+    box-sizing: border-box;
+}
+
+
+
+p {
+    font-size: 100px;
+}
+
+h1 {
+    font-size: 40px;
+}
+
+
+
+
+
+
+
+   @media screen and (max-width: 600px) {
+  .topnav a {
+    float: none;
+    width: 100%;
+  }
+}
+
+
+
+
+
+audio:hover, :focus {
+    border-radius: 20px;
+    background-image: linear-gradient( to bottom left, var(--blue), var(--red));
+    padding: 12px;
 }
 
 .section {
@@ -53,6 +78,7 @@ body {
     margin-left: 1px;
     margin-right: 1px;
     margin-bottom: 40px;
+    padding: 30px;
 }
 
 
